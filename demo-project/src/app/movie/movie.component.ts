@@ -20,7 +20,7 @@ export class MovieComponent implements OnInit {
     this.type = this.route.snapshot.params['type'];
     this.id = this.route.snapshot.params['id'];
     if (this.type === 'trending') {
-      this.url = 'http://localhost:4200/assets/data/trending-movies.json';
+      this.url = 'https://angular-demo-git-main-hrandhawa13.vercel.app/assets/data/trending-movies.json';
     }
     if (this.type === 'theatre') {
       this.url = 'http://localhost:4200/assets/data/theatre-movies.json';
