@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit{
-  dataUrl ="http://localhost:4200/assets/data/";
+  dataUrl ="https://angular-demo-git-main-hrandhawa13.vercel.app/assets/data/";
   trendingMoviesUrl ="trending-movies.json";
   popularMoviesUrl ="popular-movies.json";
   theatreMoviesUrl ="theatre-movies.json";

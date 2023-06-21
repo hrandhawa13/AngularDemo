@@ -23,10 +23,10 @@ export class MovieComponent implements OnInit {
       this.url = 'https://angular-demo-git-main-hrandhawa13.vercel.app/assets/data/trending-movies.json';
     }
     if (this.type === 'theatre') {
-      this.url = 'http://localhost:4200/assets/data/theatre-movies.json';
+      this.url = 'https://angular-demo-git-main-hrandhawa13.vercel.app/assets/data/theatre-movies.json';
     }
     if (this.type === 'popular') {
-      this.url = 'http://localhost:4200/assets/data/popular-movies.json';
+      this.url = 'https://angular-demo-git-main-hrandhawa13.vercel.app/assets/data/popular-movies.json';
     }
     this.getMovie();
   }
